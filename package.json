@@ -16,5 +16,8 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.71.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }
