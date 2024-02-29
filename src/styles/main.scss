@@ -2,18 +2,8 @@
 @use 'hero';
 @use 'shows';
 @use 'plans';
+@use 'watch-anywhere';
 
-@font-face {
-    font-family: Avenir;
-    src: url(../../assets/fonts/Avenir-Regular.woff2);
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: Avenir;
-    src: url(../../assets/fonts/Avenir-Regular.woff2);
-    font-weight: 700;
-}
 
 * {
     margin: 0;
@@ -22,8 +12,11 @@
     border: none;
     font-family: Avenir, sans-serif;
 }
-
-
+@font-face {
+    font-family: Avenir;
+    src: url(../../assets/fonts/Avenir-Regular.woff2);
+    font-weight: 400;
+}
 
 body {
     background-color: variaveis.$corDeFundo;
